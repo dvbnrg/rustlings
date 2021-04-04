@@ -1,8 +1,6 @@
 // enums2.rs
 // Make me compile! Execute `rustlings hint enums2` for hints!
 
-// I AM NOT DONE
-
 #[derive(Debug)]
 enum Message {
     // TODO: define the different variants used below
@@ -15,12 +13,6 @@ enum Message {
 impl Message {
     fn call(&self) {
         println!("{:?}", &self);
-        match &self {
-            Message::Move => {x: 10, y: 30},
-            Message::Echo => String::from("hello world"),
-            Message::ChangeColor => ChangeColor(200, 255, 255),
-            Message::Quit,
-        }
     }
 }
 
