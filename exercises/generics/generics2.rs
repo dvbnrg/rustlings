@@ -3,11 +3,11 @@
 
 // I AM NOT DONE
 
-struct Wrapper {
+struct Wrapper<T> {
     value: u32,
 }
 
-impl Wrapper {
+impl<T> Wrapper<T> {
     pub fn new(value: u32) -> Self {
         Wrapper { value }
     }
